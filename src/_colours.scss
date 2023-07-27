@@ -1,0 +1,15 @@
+@use "./base" as *;
+
+main {
+.calculator-number-format {
+  background-color: $colour-calculator-number-format;
+}
+
+.calculator-number-input{
+  background-color: $colour-calculator-number-input;
+}
+
+.calculator-operations{
+  background-color: $colour-calculator-operations;
+}
+}
