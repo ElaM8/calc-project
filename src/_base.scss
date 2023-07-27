@@ -1,0 +1,21 @@
+// Fonts?
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//VARIABLES
+// Colours
+$color-text: #fff; // check contrast for accessibility
+$colour-background: #333;
+$colour-calculator-number-format: #F51720;
+$colour-calculator-operations: #FA26A0;
+$colour-calculator-number-input: grey;
+
+// Fonts
+$font-body: "Inter", sans-serif;
+$font-weight-bold: 400;
+$font-weight-light: 300;

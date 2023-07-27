@@ -1,0 +1,12 @@
+@use "./base" as *;
+
+button {
+  color: $color-text;
+  border-radius: 50%;
+  font-size: 31px;
+   height: 130px;
+   width: 130px;
+   border: none;
+  //  cursor: pointer;
+  //  transition: all 0.2s ease;
+}

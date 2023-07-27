@@ -1,0 +1,123 @@
+@use "./base" as *;
+
+// row height
+// column width
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colour-background;
+
+.calculator-container {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+
+  .calculator-display {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-right: 130px;
+    justify-content: right;
+    margin-bottom: 50px;
+  }
+
+  #input__clear {
+    grid-area: bclear;
+  }
+
+  #input__positive-negative {
+    grid-area: bpositive-negative;
+  }
+
+  #input__percent {
+    grid-area: bpercent;
+  }
+
+  #input__operation--division {
+    grid-area: bdivision;
+  }
+
+  #input__operation--multiplication {
+    grid-area: bmultiplication;
+  }
+
+  #input__operation--subtraction {
+    grid-area: bsubtraction;
+  }
+
+  #input__operation--addition {
+    grid-area: baddition;
+  }
+
+  #input__operation--equals {
+    grid-area: bequals;
+  }
+
+  #input__number--7 {
+    grid-area: b7;
+  }
+
+  #input__number--8 {
+    grid-area: b8;
+  }
+
+  #input__number--9 {
+    grid-area: b9;
+  }
+
+  #input__number--4 {
+    grid-area: b4;
+  }
+
+  #input__number--5 {
+    grid-area: b5;
+  }
+
+  #input__number--6 {
+    grid-area: b6;
+  }
+
+  #input__number--1 {
+    grid-area: b1;
+  }
+
+  #input__number--2 {
+    grid-area: b2;
+  }
+
+  #input__number--3 {
+    grid-area: b3;
+  }
+
+  #input__number--0 {
+    grid-area: b0;
+  }
+
+  #input__number--decimal {
+    grid-area: bdecimal;
+  }
+
+  main {
+    display: grid;
+    grid-gap: 13px;
+    grid-template-areas:
+      "bclear bpositive-negative bpercent bdivision"
+      "b7 b8 b9 bmultiplication"
+      "b4 b5 b6 bsubtraction"
+      "b1 b2 b3 baddition"
+      "b0 b0 bdecimal bequals"
+  }
+  button {
+  margin: 9px;
+  margin-right: 5px;
+  }
+
+ #input__number--0 {
+  grid-area: b0;
+  width: 100%;
+  border-radius: 5%;
+  }
+}
+}
