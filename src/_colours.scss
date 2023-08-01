@@ -5,7 +5,8 @@ main {
   background-color: $colour-calculator-number-format;
 }
 
-.calculator-number-input{
+.calculator-number-input,
+.calculator-number-input-decimal {
   background-color: $colour-calculator-number-input;
 }
 
